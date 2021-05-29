@@ -1,2 +1,35 @@
 $dark: #171C21;
 $color: #0F72E5;
+
+
+///MIXINS
+
+@mixin sm {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 768px) { 
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 1024px) { 
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin xl-2 {
+  @media (min-width: 1536px) { 
+    @content;
+  }
+}

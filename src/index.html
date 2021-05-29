@@ -10,41 +10,422 @@
 </head>
 
 <body class="bg-dark">
-	<header class="flex flex-col min-h-screen">
-		<nav class="flex items-center justify-between h-15 px-7.5 sticky top-0">
-			<a href="/" class="">
-				<img class="h-6"
-					src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/logo/ripple-logo-text-white@2x.png" alt="">
-			</a>
-			<ul class="py-5 flex items-center space-x-6">
-				<li>
-					<a href="#"
-						class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300 inline-flex items-center">Payment
-						Network</a>
-				</li>
-				<li>
-					<a href="#"
-						class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300">Customers</a>
-				</li>
-				<li>
-					<a href="#"
-						class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300">Resources</a>
-				</li>
-				<li>
-					<a href="#"
-						class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300">About
-						Us</a>
-				</li>
-			</ul>
-			<a href=""
-				class="py-2 inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-xs px-6 font-medium">
-				Contact Us
-			</a>
-		</nav>
-		<div class="flex-1 w-full">
-
+	<nav class="flex items-center justify-between h-15 px-5 sm:px-7.5 sticky top-0 bg-dark z-50">
+		<a href="/" class="">
+			<img class="h-6"
+				src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/logo/ripple-logo-text-white@2x.png" alt="">
+		</a>
+		<ul class="hidden md:flex items-center space-x-6 px-6">
+			<li class="py-5">
+				<a href="#"
+					class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300 inline-flex items-center">
+					Payment Network
+					<svg width="10" viewBox="0 0 14 8" fill="none" class="ml-1.5 mt-0.75">
+						<path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</a>
+			</li>
+			<li class="py-5">
+				<a href="#"
+					class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300 inline-flex items-center">
+					Customers
+					<svg width="10" viewBox="0 0 14 8" fill="none" class="ml-1.5 mt-0.75">
+						<path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</a>
+			</li>
+			<li class="py-5">
+				<a href="#"
+					class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300 inline-flex items-center">
+					Resources
+					<svg width="10" viewBox="0 0 14 8" fill="none" class="ml-1.5 mt-0.75">
+						<path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</a>
+			</li>
+			<li class="py-5">
+				<a href="#"
+					class="text-white font-medium text-sm capitalize transition-colors duration-100 hover:text-primary-300 inline-flex items-center">
+					About Us
+					<svg width="10" viewBox="0 0 14 8" fill="none" class="ml-1.5 mt-0.75">
+						<path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</a>
+			</li>
+		</ul>
+		<a href=""
+			class="py-2 hidden  md:inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-xs px-6 font-medium">
+			Contact Us
+		</a>
+		<button class="toggle flex md:hidden">
+			<span class="toggle-inner"></span>
+		</button>
+	</nav>
+	<header class="flex flex-col min-h-screen header">
+		<div class="h-15"></div>
+		<div class="flex-1 h-full w-full flex items-center text-white px-7.5 container">
+			<div class="max-w-md md:max-w-lg lg:max-w-xl">
+				<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-tight lg:leading-tight ">
+					Instantly
+					<br> Move Money to All corners
+					of
+					the World
+				</h1>
+				<p class="text-white text-lg sm:text-xl mt-5 mb-20 pr-8">
+					Discover why hundreds of financial institutions choose RippleNet to provide a better payments experience and
+					enable greater economic opportunity for everyone, everywhere.
+				</p>
+				<button href=""
+					class="py-2 inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-sm px-7.5 font-medium">
+					Join the Network
+				</button>
+			</div>
 		</div>
 	</header>
+	<section class="container py-15 px-5 sm:px-7.5 text-white">
+		<figure class="sm:h-10 h-8">
+			<img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/logo/ripplenet@2x.png" alt=""
+				class="h-full">
+		</figure>
+		<div class="flex items-start">
+			<div class="w-full about-section mt-16">
+				<div>
+					<h2 class="text-2xl md:text-3xl font-bold">
+						A New Era of Finance
+					</h2>
+					<div class="text-1sm md:text-base mt-8 mb-16 section-text">
+						<p>
+							RippleNet makes it easier than it's ever been to run a high-performance payments business.
+						</p>
+						<p>
+							With the most advanced blockchain technology for global payments, financial institutions are able to
+							expand
+							into new markets around the world and even eliminate pre-funding by leveraging the power of XRP through
+							RippleNet’s On-Demand Liquidity service.
+						</p>
+						<p>
+							Together with our customers, we are building a more inclusive financial system where more people and SMEs
+							have access to better financial services.
+						</p>
+					</div>
+					<button href=""
+						class="py-2 inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-sm px-7.5 font-medium">
+						Learn more about RippleNet
+					</button>
+				</div>
+				<div>
+					<h2 class="text-2xl md:text-3xl font-bold">
+						The Power of RippleNet
+					</h2>
+					<div class="about-items mt-8">
+						<div>
+							<figure class="w-8/12">
+								<img
+									src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/illustrations/decentralized-infrastructure-v3@2x.png"
+									alt="" class="w-full">
+							</figure>
+							<h6 class="text-1base md:text-lg font-bold mt-10 mb-6">Decentralized
+								Infrastructure</h6>
+							<p class="text-1sm text-base">
+								3+ seconds to send a payment
+							</p>
+						</div>
+						<div>
+							<figure class="w-8/12">
+								<img
+									src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/illustrations/modernized-messaging@2x.png"
+									alt="" class="w-full">
+							</figure>
+							<h6 class="text-1base md:text-lg font-bold mt-10 mb-6">Decentralized
+								Infrastructure</h6>
+							<p class="text-1sm text-base">
+								3+ seconds to send a payment
+							</p>
+						</div>
+						<div>
+							<figure class="w-8/12">
+								<img
+									src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/illustrations/liquidity-solutions@2x.png"
+									alt="" class="w-full">
+							</figure>
+							<h6 class="text-1base md:text-lg font-bold mt-10 mb-6">Decentralized
+								Infrastructure</h6>
+							<p class="text-1sm text-base">
+								3+ seconds to send a payment
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container px-5 sm:px-7.5 py-16 my-20">
+		<div class="bg-white rounded-md w-full py-16 md:py-24 px-10  sm:px-20 testimony">
+			<figure class="flex-1 h-full flex items-center">
+				<img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/color-company-logos/santander-2@2x.png"
+					alt="" class="w-10/12 max-w-xs mx-auto">
+			</figure>
+			<div class="pl-8 sm:pl-12 flex-1 relative">
+				<figure class="absolute top-0 left-0 w-8 sm:w-11.25 -mt-4">
+					<img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/quotemarks@2x.png" alt=""
+						class="w-full">
+				</figure>
+				<p class="text-xl md:text-2lg leading-snug">Our innovation is always customer led. <b>
+						Ripple helps us directly address the
+						issues of speed and transparency around international payments raised by our customers and make sending
+						money
+						abroad better.
+					</b></p>
+				<p class="mt-5 text-sm font-medium mb-10">
+					Cedric Menager, CEO of One Pay FX, Santander’s mobile app powered by RippleNet
+				</p>
+				<button href=""
+					class="py-2 inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-sm px-7.5 font-bold">
+					Hear From Our Customers
+				</button>
+			</div>
+		</div>
+	</section>
+	<section class="pb-16 container px-5 sm:px-7.5">
+		<div class="ripple-x">
+			<figure class="mt-30 w-full min-h-62.5 rounded-md overflow-hidden">
+				<img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/photography/home-ripplex-2@2x.jpg" alt=""
+					class="w-full h-full object-cover">
+			</figure>
+			<div>
+				<figure class="h-10 mb-10 mt-10">
+					<img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/logo/ripple-x@2x.png" alt=""
+						class="h-full">
+				</figure>
+				<figure class="w-full rounded-md overflow-hidden">
+					<img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/photography/home-ripplex-1@2x.jpg"
+						alt="" class="w-full">
+				</figure>
+				<h2 class="text-2xl md:text-3xl font-bold mt-7 mb-5 text-white">
+					Enabling the Internet of Value
+				</h2>
+				<p class="text-1sm sm:text-base text-white mb-10">Ripple’s open source developer platform enables developers and
+					entrepreneurs to build real-world payment solutions on the XRP Ledger.</p>
+				<button href=""
+					class="py-2 inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-sm px-7.5 font-bold">
+					Learn More
+				</button>
+			</div>
+		</div>
+	</section>
+	<section class="cbdc-wrapper">
+		<div class="container px-5 sm:px-7.5 pt-16 pb-20">
+			<div class="cbdc">
+				<div class="mb-16">
+					<figure class="w-full">
+						<img
+							src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/photography/home-whitepaper-cbdc-1@2x.jpg"
+							alt="" class="w-full">
+					</figure>
+					<h2 class="text-2xl md:text-3xl font-bold mt-7 mb-5 text-dark">
+						Download the Future of CBDC report.
+					</h2>
+					<p class="text-1sm sm:text-base text-dark mb-10">CBDCS will play a critical role in the new, modern global
+						financial infrastructure blockchain technologies will undoubtedly underpin. Ripple’s new report provides
+						Central Banks with the framework for implementing CBDCs and guidance for ensuring global
+						interoperability—the cornerstone of success for CBDCs.</p>
+					<button href=""
+						class="py-2 inline-flex items-center justify-center bg-primary-300 hover:bg-primary-500 transition-colors duration-150 rounded-sm text-white text-sm px-7.5 font-bold">
+						Download Now
+					</button>
+				</div>
+				<figure class="w-full rounded-sm overflow-hidden">
+					<img
+						src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/photography/home-whitepaper-cbdc-2@2x.jpg"
+						alt="" class="w-full ">
+				</figure>
+			</div>
+		</div>
+	</section>
+	<section class="cta flex flex-col items-center py-12 md:py-16 text-white px-16">
+		<h2 class="text-2xl md:text-3xl font-bold mb-6">
+			Join RippleNet
+		</h2>
+		<p class="text-1sm md:text-base max-w-xs mx-auto mb-6 text-center">
+			Learn how easy it is to expand your global payments network.
+		</p>
+		</p>
+		<button href=""
+			class="py-2.5 inline-flex items-center justify-center bg-white hover:text-primary-500 transition-colors duration-150 rounded-sm text-primary-300 text-sm px-16 font-bold">
+			Join Now
+		</button>
+	</section>
+	<footer class="container px-5 sm:px-7.5 py-16">
+		<div class="footer-links mb-20 sm:mb-24">
+			<div>
+				<h6 class="md:text-lg text-base font-bold text-white mb-5">
+					Payments Network
+				</h6>
+
+				<ul class="flex flex-col space-y-1.5">
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">RippleNet</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">On-demand Liquidity</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Line of Credit</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Join the Network</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">RippleNet Committee</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">RippleNet Customer</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Login</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h6 class="md:text-lg text-base font-bold text-white mb-5">
+					Customers
+				</h6>
+
+				<ul class="flex flex-col space-y-1.5">
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Our Customers</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Customer Case Studies</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h6 class="md:text-lg text-base font-bold text-white mb-5">
+					Resources
+				</h6>
+
+				<ul class="flex flex-col space-y-1.5">
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Blog</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Content Library</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Podcast</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">XRP</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Developer Tools</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Press Center</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">XRP Ledger</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h6 class="md:text-lg text-base font-bold text-white mb-5">
+					Regulators
+				</h6>
+
+				<ul class="flex flex-col space-y-1.5">
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Compliance</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Policy Framework</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h6 class="md:text-lg text-base font-bold text-white mb-5">
+					Support
+				</h6>
+
+				<ul class="flex flex-col space-y-1.5">
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">FAQ</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h6 class="md:text-lg text-base font-bold text-white mb-5">
+					About Us
+				</h6>
+
+				<ul class="flex flex-col space-y-1.5">
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Our Story</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Careers</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">RippleX</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">SBI Ripple Asia</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">University Blockchain
+							Initiative (UBRI)</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Ripple Impact</a>
+					</li>
+					<li>
+						<a href="" class="text-grey-400 transition-colors duration-150 hover:text-white">Ripple Swell</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="flex items-center space-x-3">
+			<a href="" class="inline-block h-5 w-5 text-white hover:text-primary-500 transition-colors">
+				<svg width="100%" viewBox="0 0 26 26" fill="none">
+					<g clip-path="url(#clip0)">
+						<path
+							d="M18.6301 14.5926L19.3244 10.0681H14.9831V7.13211C14.9831 5.89432 15.5896 4.68777 17.5339 4.68777H19.5075V0.835724C19.5075 0.835724 17.7165 0.53006 16.0041 0.53006C12.4289 0.53006 10.092 2.69705 10.092 6.6199V10.0681H6.11789V14.5926H10.092V25.5301H14.9831V14.5926H18.6301Z"
+							fill="currentColor" />
+					</g>
+					<defs>
+						<clipPath id="clip0">
+							<rect width="25" height="25" fill="white" transform="translate(0.312714 0.53006)" />
+						</clipPath>
+					</defs>
+				</svg>
+			</a>
+			<a href="" class="inline-block h-5 w-5 text-white hover:text-primary-500 transition-colors">
+				<svg width="100%" viewBox="0 0 25 25" fill="none">
+					<path
+						d="M22.4302 7.408C22.446 7.63007 22.446 7.85219 22.446 8.07426C22.446 14.8477 17.2906 22.6523 7.86802 22.6523C4.96509 22.6523 2.26841 21.8115 0 20.3522C0.412451 20.3997 0.808984 20.4156 1.2373 20.4156C3.63257 20.4156 5.83755 19.6066 7.59834 18.2266C5.3458 18.1789 3.45811 16.7037 2.80771 14.6732C3.125 14.7208 3.44224 14.7525 3.77539 14.7525C4.2354 14.7525 4.69546 14.6891 5.12373 14.5781C2.77603 14.1021 1.01519 12.04 1.01519 9.54951V9.48608C1.69727 9.86679 2.49048 10.1047 3.33115 10.1364C1.95107 9.21635 1.04692 7.64594 1.04692 5.86928C1.04692 4.91752 1.30068 4.04506 1.74487 3.28364C4.26709 6.39277 8.05835 8.42319 12.3096 8.64531C12.2303 8.26459 12.1827 7.86806 12.1827 7.47148C12.1827 4.64785 14.4669 2.34775 17.3064 2.34775C18.7816 2.34775 20.1141 2.9664 21.05 3.96577C22.208 3.7437 23.3184 3.31537 24.302 2.72846C23.9212 3.91821 23.1122 4.91757 22.0494 5.55204C23.0805 5.44106 24.0799 5.15546 24.9999 4.75893C24.3021 5.77411 23.4295 6.67827 22.4302 7.408V7.408Z"
+						fill="currentColor" />
+				</svg>
+			</a>
+			<a href="" class="inline-block h-5 w-5 text-white hover:text-primary-500 transition-colors">
+				<svg width="100%" viewBox="0 0 25 25" fill="none">
+					<path
+						d="M6.45898 21.875H1.92383V7.27051H6.45898V21.875ZM4.18896 5.27832C2.73877 5.27832 1.5625 4.07715 1.5625 2.62695C1.5625 1.93037 1.83922 1.26232 2.33177 0.769762C2.82433 0.277204 3.49238 0.000488281 4.18896 0.000488281C4.88555 0.000488281 5.5536 0.277204 6.04616 0.769762C6.53871 1.26232 6.81543 1.93037 6.81543 2.62695C6.81543 4.07715 5.63867 5.27832 4.18896 5.27832ZM23.4326 21.875H18.9072V14.7656C18.9072 13.0713 18.873 10.8984 16.5493 10.8984C14.1914 10.8984 13.8301 12.7393 13.8301 14.6436V21.875H9.29981V7.27051H13.6494V9.2627H13.7129C14.3184 8.11523 15.7974 6.9043 18.0039 6.9043C22.5938 6.9043 23.4375 9.92676 23.4375 13.8525V21.875H23.4326Z"
+						fill="currentColor" />
+				</svg>
+			</a>
+		</div>
+		<div class="text-sm text-grey-400 mt-4 flex items-center flex-wrap">
+			© 2013 - 2021 Ripple, All Rights Reserved.
+		</div>
+	</footer>
 </body>
 
 </html>
